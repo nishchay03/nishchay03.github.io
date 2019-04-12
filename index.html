@@ -1,37 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Startup</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
-    current from Bootstrap website, you will see the button grow transition being a lot faster
-    than in my video. Use whichever style sheet you like best! -->
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- My own stylesheet -->
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header class="startup text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-12 my-auto">
-            <h1 class="text-uppercase faded">
-              <strong>Welcom to my portfolio</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-12 my-auto">
-            <button class="btn btn-primary btn-xl">Find Out More</button>
-          </div>
-        </div>
-      </div>
-    </header>
-
-  </body>
-
+<head>
+	<title>Nishchay Madan | Web Developer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Montserrat|Audiowide|Oswald|Lobster" rel="stylesheet">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body class="animated fadeIn">
+	<nav class="sticky">
+		<ul class="main-nav animated fadeIn">
+			<li class="nav-size">Nishchay Madan</li>
+			<li class="push contact-size" id="email-appear">
+				<a class="contact-style">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="cover">
+		<h1 class="intro-header animated fadeInDown">Hi! I'm Nishchay Madan.</h1>
+		<p class="intro-paragraph animated fadeInUp">I'm a front-end developer based in San Jose, CA. <br>Check below to see some of the projects I've built.</p>
+	</div>
+	<div class="tools">
+		<h2>What I use</h2>
+		<div class="tools-icons">
+			<a><img src="./img/html5.svg" alt="html icon" width="300px" height="150px"><span class="icon-labels">HTML 5</span></a>
+			<a><img src="./img/css3.svg" alt="css icon" width="300px" height="150px"><span class="icon-labels">CSS 3</span></a>
+			<a><img src="./img/js.svg" alt="js icon" width="300px" height="150px"><span class="icon-labels">Javascript</span></a>
+			<a><img src="./img/react.svg" alt="react icon" width="300px" height="150px"><span class="icon-labels">React</span></a>
+			<a><img src="./img/bootstrap.svg" alt="bootstrap icon" width="300px" height="150px"><span class="icon-labels">Bootstrap</span></a>
+			<a><img src="./img/github.svg" alt="github icon" width="300px" height="150px"><span class="icon-labels">GitHub</span></a>
+			<a><img src="./img/node.svg" alt="github icon" width="300px" height="150px"><span class="icon-labels">Node.js</span></a>
+			<a><img src="./img/postgresql.svg" alt="github icon" width="300px" height="150px"><span class="icon-labels">PostgreSQL</span></a>
+			<a><img src="./img/git.svg" alt="github icon" width="300px" height="150px"><span class="icon-labels">Git</span></a>
+		</div>
+	</div>
+	<div class="projects">
+		<h2 class="projects-header">Projects</h2>
+			<h3 class="idiom">idiom</h3>
+			<div class="btn-container1">
+				<img src="./img/idiom-gif.gif" alt="idiom gif" class="project-img">
+				<form action="https://idiomlanguagelearning.herokuapp.com/" target="_blank">
+					<button class="btn1 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View app</button>
+				</form>
+				<form action="https://github.com/plattthompson/idiom" target="_blank">
+					<button class="btn2 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View code</button>
+				</form>
+			</div>
+			<p class="project-desc">This full-stack app is hosted on Heroku and uses React, Node.js, and PostgreSQL to tell you how often words and sentences are used.</p>
+			<h3 class="forecast">Forecast</h3>
+			<div class="btn-container2">
+				<img src="./img/forecast-stormy.gif" alt="forecast gif" class="project-img">
+				<form action="https://plattthompson.github.io/forecast/" target="_blank">
+					<button class="btn3 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View app</button>
+				</form>
+				<form action="https://github.com/plattthompson/forecast" target="_blank">
+					<button class="btn4 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View code</button>
+				</form>
+			</div>
+			<p class="project-desc">Using an API from <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>, Forecast can tell you the temperature, humidity, and general conditions of any city in the world. Built with React.</p>
+			<h3 class="throw-shade">Throw Shade</h3>
+			<div class="btn-container3">
+				<img src="./img/throw-shade-gif.gif" alt="throw shade gif" class="project-img">
+				<form action="https://plattthompson.github.io/throw-shade/" target="_blank">
+					<button class="btn5 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View app</button>
+				</form>
+				<form action="https://github.com/plattthompson/throw-shade" target="_blank">
+					<button class="btn6 f6 grow no-underline br-pill ph3 pv2 mb2 dib white">View code</button>
+				</form>
+			</div>
+			<p class="project-desc">Throw Shade can help anyone from a graphic designer to a home decorator choose suitable color combinations for a site, room, or layout.</p>
+	</div>
+	<footer>
+		<a href="https://github.com/plattthompson" target="_blank" rel="external noopener noreferer">
+			<i class="fab fa-github fa-3x icon-link github-icon"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/platt-thompson" target="_blank" rel="external noopener noreferer">
+			<i class="fab fa-linkedin fa-3x icon-link linkedin-icon"></i>
+		</a>
+		<br>
+		<span>© <script type="text/javascript">document.write(new Date().getFullYear());</script> Platt Thompson</span>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
 </html>
