@@ -1,0 +1,43 @@
+body {
+	/*margin: auto 0;*/
+	height: 100%;
+	background: linear-gradient(to right, white, black);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1cm;
+	color: white;
+	/*transform: translate(0%, 80%);*/
+}
+
+.main {
+	transform: translate(0%, 80%);
+}
+
+h1 {
+	font-family: "Oswald", sans serif;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Oswald", sans serif;
+}
+
+input {
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: white;
+	outline: none;
+}
+
+#clickcopy1 {
+	height: 90%;
+	width: 40%;
+	position: absolute;
+}
+
+#clickcopy2 {
+	height: 90%;
+	width: 40%;
+	right: 0%;
+	position: absolute;
+}
